@@ -34,14 +34,14 @@ data_files
 └── 'i'-round (i = 01,02,03,...)
     ├── unreachable_domain
     │	├── status_code_404.txt
-	│	├──	status_others.txt
-	│	└──	status_errors.txt
+    │	├── status_others.txt
+    │	└── status_errors.txt
     ├── redirection_domains
     │	└── status_redirection.txt
-	├── san_domains
-	│	└── sans.txt # The san domains obtained from cert.json
-	├── input
-	│	└── hosts.txt # The domains file used for fetching certs
+    ├── san_domains
+    │	└── sans.txt # The san domains obtained from cert.json
+    ├── input
+    │	└── hosts.txt # The domains file used for fetching certs
     ├ status_code_200.txt
     ├ certs.json # certificate file
     ├ certs_temp.json # intermediate file - can be seen only if some error occurs
