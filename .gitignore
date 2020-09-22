@@ -1,0 +1,12 @@
+# Ignore all text files
+data/*.txt
+!data/sample.txt
+
+# Ignore pycache folder
+data/__pycache__
+
+# Ignore cert data
+data/data_files/
+
+# Ignore test files
+data/test_*.py
